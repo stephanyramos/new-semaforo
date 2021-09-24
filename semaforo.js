@@ -33,9 +33,9 @@ function automaticoLigado() {
 const ligarAutomatico = () => {
     const botaoAutomatico = document.getElementById("automatico")
     if (botaoAutomatico.textContent == "Automatico"){
-    idVermelho = setInterval(ligarVermelho, 500)
-    idAmarelo = setInterval(ligarAmarelo, 1000)
-    idVerde = setInterval(ligarVerde, 1500)
+    idVermelho = setInterval(ligarVermelho, 2300)
+    idAmarelo = setInterval(ligarAmarelo, 2400)
+    idVerde = setInterval(ligarVerde, 2500)
     document.getElementById("automatico").textContent = "Automatico"
     } else{
         
